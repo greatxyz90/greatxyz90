@@ -1,1 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
 
+/* Top bar */
+.topbar {
+  background: #0d6efd;
+  color: #fff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Demo note */
+.demo-note {
+  background: #fff3cd;
+  color: #856404;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Container spacing */
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+/* Cards */
+.card {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.wallet {
+  text-align: center;
+}
+
+.balance {
+  font-size: 28px;
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+/* Buttons */
+.actions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.btn {
+  text-decoration: none;
+  background: #0d6efd;
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 15px;
+  color: #777;
+  font-size: 14px;
+}
